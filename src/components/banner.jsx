@@ -1,4 +1,4 @@
-import { Box, Image, Button, Container, Heading } from "@chakra-ui/react"
+import { Box, Image, Button, Container, Heading, Stack, HStack, VStack } from "@chakra-ui/react"
 import brandLogo from '../assets/brand-logo.svg'
 import illustration from '../assets/illustration.svg'
 
@@ -42,6 +42,11 @@ function Banner() {
 
             </Container>
           </Box>
+
+          <VStack spacing='24px'>
+            <Box bg='green' w='100px' h='100px'></Box>
+            <Box bg='red' w='100px' h='100px'></Box>
+          </VStack>
 
         </>;
 }
